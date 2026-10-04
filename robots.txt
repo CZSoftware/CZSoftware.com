@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://czsoftware.github.io/CZSoftware.com/sitemap.xml
