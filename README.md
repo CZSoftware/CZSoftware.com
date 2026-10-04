@@ -55,18 +55,18 @@ All other asset paths are relative, so nothing else needs to change.
 3. Tick **Enforce HTTPS** once it becomes available.
 4. Replace `https://czsoftware.github.io/CZSoftware.com/` with `https://czsoftware.com/` in the files listed above. In `404.html`, change `/CZSoftware.com/` to `/`.
 
-## Replace the project links
+## Project links
 
-In `index.html` under the **Work** section, swap each placeholder `href` for the real URL, such as a Chrome Web Store listing, GitHub repo or live site:
+The **Work** section in `index.html` links each project card to its page:
 
-| Placeholder | Project |
+| Project | Link |
 | --- | --- |
-| `#LINK_OPEN_BITMAP_INTERNET` | Open Bitmap Internet |
-| `#LINK_BITMAP_REDIRECT` | Bitmap-Redirect |
-| `#LINK_ORDINAL_CONTENT_VIEWER` | Ordinal Content Viewer |
-| `#LINK_GO_CHILL` | Go Chill |
+| Open Bitmap Internet | Chrome Web Store listing |
+| Bitmap-Redirect | Chrome Web Store listing |
+| Ordinals Content Viewer | Chrome Web Store listing |
+| Go Chill | https://www.chillbugs.com/ |
 
-For links that go to another site, it's good practice to add `target="_blank" rel="noopener"`. You can also rewrite each card's one-line description to describe the project more specifically.
+To add a project, copy one of the `<li class="card work-card">` blocks and change the name, tag, description and `href`.
 
 When you update content, also update `<lastmod>` in `sitemap.xml`.
 
