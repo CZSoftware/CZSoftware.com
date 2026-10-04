@@ -64,7 +64,7 @@ The **Work** section in `index.html` links each project card to its page:
 | Open Bitmap Internet | Chrome Web Store listing |
 | Bitmap-Redirect | Chrome Web Store listing |
 | Ordinals Content Viewer | Chrome Web Store listing |
-| Go Chill | https://www.chillbugs.com/ |
+| Go Chill | http://chillbugs.com/ |
 
 To add a project, copy one of the `<li class="card work-card">` blocks and change the name, tag, description and `href`.
 
