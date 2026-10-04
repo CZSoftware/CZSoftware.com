@@ -852,9 +852,8 @@ section[id] { scroll-margin-top: var(--header-h); }
   background: var(--orange);
 }
 .work-body h3 { margin-top: 10px; font-size: 1.1875rem; font-weight: 700; }
-.work-body p:not(.work-tag) { margin-top: 8px; color: var(--muted); font-size: 0.96rem; }
+.work-body p:not(.work-tag) { margin: 8px 0 20px; color: var(--muted); font-size: 0.96rem; }
 .work-body .btn { align-self: flex-start; margin-top: auto; }
-.work-body p:not(.work-tag) + .btn { margin-top: 20px; }
 
 .work-note {
   max-width: 680px;
